@@ -225,7 +225,7 @@ export default {
         ]
       },
       setdialogVisible:false,
-      userInfo:{}
+      userInfo:{},
       rolesList:[],
       //已选中的角色id值
       value:""
