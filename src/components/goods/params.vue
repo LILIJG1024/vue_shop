@@ -51,7 +51,7 @@
                   @keyup.enter.native="handleInputConfirm(scope.row)"
                   @blur="handleInputConfirm(scope.row)"
                 ></el-input>
-                <el-button v-else class="button-new-tag" size="small" @click="showInput(scope.row.)">+ New Tag</el-button>
+                <el-button v-else class="button-new-tag" size="small" @click="showInput(scope.row)">+ New Tag</el-button>
               </template>
             </el-table-column>
             <el-table-column type="index"></el-table-column>
@@ -97,7 +97,7 @@
                   @keyup.enter.native="handleInputConfirm(scope.row)"
                   @blur="handleInputConfirm(scope.row)"
                 ></el-input>
-                <el-button v-else class="button-new-tag" size="small" @click="showInput(scope.row.)">+ New Tag</el-button>
+                <el-button v-else class="button-new-tag" size="small" @click="showInput(scope.row)">+ New Tag</el-button>
               </template>
             </el-table-column>
             <el-table-column type="index"></el-table-column>
