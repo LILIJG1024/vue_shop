@@ -16,6 +16,7 @@ module.exports = {
             }
         ],
         //在项目开发的时候才运行这个插件
-        ...prodPlugins
+        ...prodPlugins,
+        "@babel/plugin-syntax-dynamic-import"
     ]
 }
